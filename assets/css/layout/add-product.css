@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ----------- */
+
+.div-home{
+    width: auto;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+
+.div-body{
+    width: 850px;
+    height: 550px;
+    background-color: red;
+    margin-right: 190px;
+    border-radius: 20px;
+}
+
+.div-head{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(92, 93, 95);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.div-contnt{
+    width: auto;
+    height: 460px;
+    background-color: rgb(92, 93, 95);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* --------- */
+
+.lb-1{
+    background-color: rgb(72, 72, 88);
+    font-size: x-large;
+    padding: 5px 15px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.lb-2{
+    color: white;
+    font-size: x-large;
+    position: relative;
+    top: 15px;
+    right: 25px;
+}
+
+/* ------------ */
+
+.btn{
+    width: 100px;
+    height: 35px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    font-size: large;
+    padding: 4px 4px;
+    
+}
+
+.b1{
+    position: relative;
+    right: 480px;
+    top: 30px;
+}
+
+.b1:hover{
+    background-color: rgba(32, 178, 171, 0.452);
+}
+
+.b2{
+    position: relative;
+    right: 700px;
+    top: 0px; 
+}
+
+.b2:hover{
+    background-color: rgba(32, 178, 171, 0.452);
+}
+
+
+.b3{
+    position: relative;
+    right: 480px;
+    top: 0px; 
+}
+
+.b3:hover{
+    background-color: rgba(32, 178, 171, 0.452);
+}
+
+
+/* --------- */
+
+.in-1{
+    width: 250px;
+    height: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 0px;
+    position: relative;
+    top: 20px;
+    right: 25px;
+}
