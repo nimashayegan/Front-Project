@@ -18,7 +18,7 @@
 
                     <p>عنوان:</p>
 
-                    <input type="text" class="input-onvan">
+                    <input name="title" type="text" class="input-onvan">
 
                 </div>
 
@@ -26,7 +26,7 @@
 
                     <p>متن:</p>
 
-                    <textarea class="textarea-matn"></textarea>
+                    <textarea name="description" class="textarea-matn"></textarea>
 
                 </div>
 

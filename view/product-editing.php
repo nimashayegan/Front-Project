@@ -29,27 +29,27 @@
 
                     <label class="lb-2"> نام محصول جدید :</label>
                     <br>
-                    <input type="text" class="in-1">
+                    <input name="productName" type="text" class="in-1">
                     <br>
                     <br>
                     <label class="lb-2">نوعه محصول جدید :</label>
                     <br>
-                    <input type="text" class="in-1">
+                    <input name="productType" type="text" class="in-1">
                     <br>
                     <br>
                     <label class="lb-2">رنگ محصول جدید :</label>
                     <br>
-                    <input type="text" class="in-1">
+                    <input name="colorProduct" type="text" class="in-1">
                     <br>
                     <br>
                     <label class="lb-2">ضمانت محصول جدید :</label>
                     <br>
-                    <input type="text" class="in-1">
+                    <input name="warantyProduct" type="text" class="in-1">
                     <br>
                     <br>
                     <label class="lb-2">تعداد خرید جدید :</label>
                     <br>
-                    <input type="text" class="in-1">
+                    <input name="countProduct" type="text" class="in-1">
                     <br>
                     <br>
                     <br>

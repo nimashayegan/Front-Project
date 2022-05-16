@@ -26,7 +26,7 @@
                     <label class="lable-1">
 
                         <span class="span-image"> ارسال تصویر جدید</span>
-                        <input type="file" hidden accept="image/*" class="file-1">
+                        <input name="userPic" type="file" hidden accept="image/*" class="file-1">
 
                     </label>
                 </div>
@@ -40,36 +40,36 @@
                 <div class="div-fname">
                     <label class="l-fname">نام:</label>
                     <br>
-                    <input type="text">
+                    <input name="userName" type="text">
                 </div>
 
                 
                 <div class="div-lname">
                     <label class="l-lname">نام خانوادگی:</label>
                     <br>
-                    <input type="text">
+                    <input name="userLname" type="text">
                 </div>
 
                 
                 <div class="div-phone">
                     <label class="l-phone">شماره تلفن:</label>
                     <br>
-                    <input type="text">
+                    <input name="userNumber" type="text">
                 </div>
 
                 <div class="div-gender">
                     <label class="l-genser">جنسیت:</label>
                     <br>
-                    <select class="sel-1">
-                        <option >خانوم</option>
-                        <option>اقا</option>
+                    <select name="userGender" class="sel-1">
+                        <option value="female">خانوم</option>
+                        <option value="male">اقا</option>
                     </select>
                 </div>
 
                 <div class="div-bio" >
                     <label class="l-bio">بیوگرافی:</label>
                     <br>
-                    <textarea name="" id="" cols="30" rows="10" class="textar-1"></textarea>
+                    <textarea  name="bio" id="" cols="30" rows="10" class="textar-1"></textarea>
                 </div>
 
                 <input type="submit" value="ذخیره تغییرات" class="sub-1">

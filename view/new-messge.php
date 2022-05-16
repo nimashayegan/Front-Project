@@ -54,12 +54,12 @@ if (isset($_POST['new-messge'])) {
 
             <div class="div-main-1">
                 <label class="label-main-1">نوع پیامک</label>
-                <input type="text" class="input-nopm" name="data[typemessge]">
+                <input type="text" class="input-nopm" name="typemessge">
             </div>
 
             <div class="div-main-2">
                 <label class="label-main-2">متن پیامک</label>
-                <textarea class="textarea-1" name="data[matnmessge]"></textarea>
+                <textarea class="textarea-1" name="matnmessge"></textarea>
             </div>
 
             <button type="reset" class="button-reset">حذف</button>
